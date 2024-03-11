@@ -823,7 +823,7 @@ form .btn-primary {
     padding: 20px;
   }
 }
-@media(max-width: 550px){
+@media(max-width: 600px){
   #accessibilityMenu > li:nth-child(1){
     display: none;
   }
