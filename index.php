@@ -241,7 +241,7 @@ include 'header.php';
 
 <div class="boxSection">
     <div class="row innerSection">
-        <div class="col-md-6">
+        <div class="col-md-6  col-sm-12">
             <div class="box box2">
                 <a href="login.php">
                     <img src="image/register.png" alt="Register/Login">
@@ -261,6 +261,37 @@ include 'header.php';
 </div>
 
 <!--  -->
+<section class="wf100 home3 emergency-numbers">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-5">
+                <h5></h5>
+                <div class="newsletter-form" style="margin-top: 10px;">
+                    <br><br>
+                    <a href="ima-members.php" style="background-color: #40407e;color: white; font-size: 1.2em;" class="btn rounded-pill">Search IMA Member Database</a>
+                    <br><br>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-7">
+                <div class="e-numbers">
+                    <h5 class= "registeres_h5">Registered IMA Members</h5>
+                    <ul class="row">
+                        <li class="col-md-4 col-sm-4">
+                            <div class="em-box"> <i class="fa-solid fa-address-card"></i><br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">IMA ID-card</a> </strong> </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4">
+                            <div class="em-box"> <i class="fas fa-scroll"></i> <br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">IMA Certificate</a> </strong> </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4">
+                            <div class="em-box"> <i class="fas fa-edit"></i> <br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">Update Your IMA Profile</a> </strong> </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <script>
         // JavaScript to make the carousel slide automatically
