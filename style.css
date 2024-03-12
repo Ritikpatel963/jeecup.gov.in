@@ -6,6 +6,11 @@
   outline: none;
   list-style-type: none;
 }
+
+.btn:hover{
+    color: white !important;
+}
+
 /* top header section */
 #topBar {
   background: #e5e2db;
@@ -60,6 +65,7 @@
 }
 .push-left {
   float: left !important;
+  padding: 7px;
 }
 
 #topBar .govBranding ul li:first-child {
@@ -474,7 +480,6 @@ text-center {
 /* login section and signup section */
 .boxSection {
   background: #fff;
-  margin: 0 -15px;
 }
 .innerSection {
   margin: 0px auto;
@@ -732,21 +737,134 @@ form .btn-primary {
   border: 1px solid transparent;
   border-radius: 4px !important;
 }
+.e-numbers .em-box strong.em-deprt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #777;
+  font-weight: 600;
+}
+.home3.emergency-numbers .e-numbers .em-box i {
+  color: #d94148;
+}
+.e-numbers .em-box {
+  background: #fff;
+  border: 1px solid #d7d7d7;
+  width: 100%;
+  float: left;
+  padding: 20px 25px;
+  border-radius: 3px;
+  height: 165px;
+}
+.e-numbers .em-box i {
+  font-size: 30px;
+}
 
+.emergency-numbers {
+  background: url(image/ima2.jpg) no-repeat;
+    background-size: auto;
+  background-size: cover;
+  padding: 60px 0;
+}
+.home3.emergency-numbers .e-numbers .em-box strong.em-num {
+  color: #144b8b;
+}
+.em-box:hover {
+  background: #d94148;
+    background-color: rgb(217, 65, 72);
+  border-color: #d94148;
+}
+.home3.emergency-numbers .e-numbers .em-box:hover i  {
+  color: white;
+}
+.em-deprt a:hover{
+  color: white !important;
+}
+.em-deprt a{
+  line-height: 9;
+}
 /*  */
 
 /* header dropdown  */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-.dropdown-toggle::after{
-  display: none !important;
+/*  */
+/* news section */
+.vc_column_container > .vc_column-inner {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }
+.vc_custom_1572839845724 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.home .wpb_wrapper {
+  margin: 0;
+}
+.news-ticker-horizontal.title-left {
+  padding-left: 170px;
+  position: relative;
+  color: #fff
+}
+.news-ticker-horizontal.title-left > h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #ccc;
+  width: 170px;
+  overflow: hidden;
+  margin: 0;
+  font-size: 1.5em;
+}
+.news-ticker-horizontal.show-controls .flexslider {
+  padding-right: 65px !important;
+}
+.news-ticker-horizontal .flexslider.pd-15 {
+  padding: 15px;
+}
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  overflow: hidden;
+  position: relative;
+}
+.news-ticker-horizontal.title-left .flexslider ul.slides {
+  display: inline-flex;
+  align-items: center;
+}
+.news-ticker-horizontal .flexslider .slides > li {
+  display: block !important;
+  margin-right: 2px;
+}
+.news-ticker-horizontal.color-white .flexslider .slides li .with-urlchange {
+  color: #fff;
+}
+.accent-fixed-color {
+  background: #052963 !important;
+  color: #fff !important;
+}
+.depart-info {
+  background: url(image/ima3.jpg) no-repeat bottom;
+    background-size: auto;
+  background-size: cover;
+}
+
 /*  */
 
 
-
 /* responsive design  */
+@media (min-width: 280px) and (max-width: 767px) {
+  .em-box{
+    margin: 0 0 30px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .e-numbers .em-box, .news-post .news-post-txt, .h2-Mayor-msg {
     padding: 15px;
@@ -795,6 +913,8 @@ form .btn-primary {
   #topBar .col-xs-12 .govBranding ul {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 @media (max-width: 991px) {
@@ -823,10 +943,12 @@ form .btn-primary {
     padding: 20px;
   }
 }
-@media(max-width: 600px){
+@media(max-width: 550px){
+    
   #accessibilityMenu > li:nth-child(1){
     display: none;
   }
+  
   #topBar #accessibility ul li a.language {
     font-size: 0.7em;
   }
@@ -854,4 +976,13 @@ form .btn-primary {
   .dropdown{
     width: 100%;
   }
+  .d-block{
+    height: 250px;
+  }
+    .accent-fixed-color{
+        padding-left: 0px!important;
+    }
+    .wpb_column{
+        height:100px;
+    }
 }
