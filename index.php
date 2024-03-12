@@ -1,40 +1,64 @@
 <?php
 include 'header.php';
 ?>
+<div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid accent-fixed-color" style="position: relative; box-sizing: border-box; padding-left: 38.6px; padding-right: 38.4px;">
+    <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner vc_custom_1572839845724">
+            <div class="wpb_wrapper">
+                <div class="news-ticker-horizontal  nth-flexslider color-white  title-left show-controls   ">
+                    <h2 class="pd-15 title-font-bold">LATEST NEWS</h2>
+                    <div class="newsticker flexslider pd-15">
+
+                        <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                        <marquee><p style="font-size: 18pt">Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor!</p></marquee>
+                        </div>
+                        <ul class="flex-direction-nav">
+                            <li class="flex-nav-prev"><a class="flex-prev" href="#" title="Previous" aria-label="Previous"><span class="hide">Previous</span></a></li>
+                            <li class="flex-nav-next"><a class="flex-next" href="#" title="Next" aria-label="Next"><span class="hide">Next</span></a></li>
+                        </ul>
+                        <div class="flex-pauseplay"><a href="javascript:void(0)" class="flex-pause" title="Play/Pause" aria-label="Play/Pause"><span class="hide">Pause</span></a></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- banner-secction -->
 <div id="carouselExampleIndicators" class="carousel slide mt-2" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="image/plum-1690579_1280.jpg" class="d-block w-100" alt="..." height="400px">
-            </div>
-            <div class="carousel-item">
-                <img src="image/plums-3560078_1280.jpg" class="d-block w-100" alt="..." height="400px">
-            </div>
-            <div class="carousel-item">
-                <img src="image/plums-3560078_1280.jpg" class="d-block w-100" alt="..." height="400px">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/plum-1690579_1280.jpg" class="d-block w-100" alt="..." height="600px">
+        </div>
+        <div class="carousel-item">
+            <img src="image/plums-3560078_1280.jpg" class="d-block w-100" alt="..." height="600px">
+        </div>
+        <div class="carousel-item">
+            <img src="image/plums-3560078_1280.jpg" class="d-block w-100" alt="..." height="600px">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 <!--  -->
 <!-- marquee section -->
-<div class="container mt-5">
+<div class="container mt-5" id="SkipContent">
     <div class="row">
         <div class="col-md-12 xs-padding0">
             <div id="blog-homepage" class="row">
-                <div class="col-sm-4" style="width:400">
+                <div class="col-sm-4">
                     <div class="post">
                         <blockquote>
                             <h4 class="text-left">
@@ -66,15 +90,15 @@ include 'header.php';
                             </marquee>
                         </div>
 
-                        <p class="read-more">
-                            <a href="#" class="btn btn-primary btn-xs read_more">Read more</a>
-                        </p>
+                        <!--<p class="read-more">-->
+                        <!--    <a href="#" class="btn btn-primary btn-xs read_more">Read more</a>-->
+                        <!--</p>-->
                     </div>
                 </div>
 
 
                 <!-- NOTICES -->
-                <div class="col-sm-4" style="width:400">
+                <div class="col-sm-4">
                     <div class="post">
                         <blockquote>
                             <h4 class="text-left">
@@ -82,7 +106,6 @@ include 'header.php';
                             </h4>
                         </blockquote>
                         <hr class="notice-boxHR">
-
                         <div class="scroll-marquee">
                             <marquee direction="up" scrollamount="3" scrolldelay="200" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" height="300">
                                 <panel id="fvNews_ctl00_pdfnews" style="font-weight: normal; font-size: 15px;">
@@ -107,9 +130,9 @@ include 'header.php';
                                 </strong>
                             </marquee>
                         </div>
-                        <p class="read-more">
-                            <a href="#" class="btn btn-primary btn-xs read_more">Read more</a>
-                        </p>
+                        <!--<p class="read-more">-->
+                        <!--    <a href="#" class="btn btn-primary btn-xs read_more">Read more</a>-->
+                        <!--</p>-->
                     </div>
                 </div>
                 <style type="text/css">
@@ -141,7 +164,7 @@ include 'header.php';
                     }
                 </style>
                 <!-- NEW Initiatives -->
-                <div class="col-sm-4" style="width:400">
+                <div class="col-sm-4">
                     <div class="post">
                         <blockquote>
                             <h4 class="text-left">
@@ -201,9 +224,9 @@ include 'header.php';
                             </marquee>
                         </div>
 
-                        <p class="read-more">
-                            <a href="#" class="btn btn-primary btn-xs read_more">Read more</a>
-                        </p>
+                        <!--<p class="read-more">-->
+                        <!--    <a href="#" class="btn btn-primary btn-xs read_more">Read more</a>-->
+                        <!--</p>-->
                     </div>
                 </div>
             </div>
@@ -212,10 +235,11 @@ include 'header.php';
 </div>
 <!--  -->
 <!-- President photo and secretory photo  -->
-<div class="container" style="margin-top: 40px;">
+<section class="depart-info">
+<div class="container mt-5">
     <div class="row">
-        <div class="col-sm-6" style="display: flex; justify-content: center;">
-            <div class="card" style="width: 15rem;  border:none">
+        <div class="col-sm-6 mt-5 mb-3" style="display: flex; justify-content: center;">
+            <div class="card" style="width: 15rem;  border:none; background: transparent;">
                 <img class="card-img-top" src="image/Prof G.D. Sharma.jpg" alt="Card image cap" style="  border-radius: 50%; height: 238px;">
                 <div class="card-body" style="text-align: center;">
                     <h5 class="card-title"><strong>President, IMPA</strong></h5>
@@ -224,8 +248,8 @@ include 'header.php';
                 </div>
             </div>
         </div>
-        <div class="col-sm-6" style="display: flex; justify-content: center;">
-            <div class="card" style="width: 15rem;  border:none">
+        <div class="col-sm-6 mt-5 mb-3" style="display: flex; justify-content: center; ">
+            <div class="card" style="width: 15rem;  border:none; background: transparent;">
                 <img class="card-img-top" src="image/Dr Pankaj Mittal.jpg" alt="Card image cap" style="  border-radius: 50%;">
                 <div class="card-body" style="text-align: center;">
                     <h5 class="card-title"><strong>President, IMPA</strong></h5>
@@ -236,12 +260,13 @@ include 'header.php';
         </div>
     </div>
 </div>
+</section>
 
 <!-- login section  -->
 
-<div class="boxSection">
+<div class="container boxSection">
     <div class="row innerSection">
-        <div class="col-md-6  col-sm-12">
+        <div class="col-md-6">
             <div class="box box2">
                 <a href="login.php">
                     <img src="image/register.png" alt="Register/Login">
@@ -259,31 +284,33 @@ include 'header.php';
         </div>
     </div>
 </div>
-
 <!--  -->
+
+<!-- registration ima member -->
+
 <section class="wf100 home3 emergency-numbers">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-5">
-                <h5></h5>
-                <div class="newsletter-form" style="margin-top: 10px;">
+                
+                <div class="newsletter-form" style="margin-top: 20px;">
                     <br><br>
-                    <a href="ima-members.php" style="background-color: #40407e;color: white; font-size: 1.2em;" class="btn rounded-pill">Search IMA Member Database</a>
+                    <a href="ima-members.php" style="background-color: #40407e;color: white; font-size: 1.2em;" class="btn rounded-pill">Search IMPA Member Database</a>
                     <br><br>
                 </div>
             </div>
             <div class="col-md-8 col-sm-7">
                 <div class="e-numbers">
-                    <h5 class= "registeres_h5">Registered IMA Members</h5>
+                    <h5 class="registeres_h5">Registered IMPA Members</h5>
                     <ul class="row">
                         <li class="col-md-4 col-sm-4">
-                            <div class="em-box"> <i class="fa-solid fa-address-card"></i><br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">IMA ID-card</a> </strong> </div>
+                            <div class="em-box"> <i class="fa-solid fa-address-card"></i><br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">IMPA ID-card</a> </strong> </div>
                         </li>
                         <li class="col-md-4 col-sm-4">
-                            <div class="em-box"> <i class="fas fa-scroll"></i> <br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">IMA Certificate</a> </strong> </div>
+                            <div class="em-box"> <i class="fas fa-scroll"></i> <br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">IMPA Certificate</a> </strong> </div>
                         </li>
                         <li class="col-md-4 col-sm-4">
-                            <div class="em-box"> <i class="fas fa-edit"></i> <br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">Update Your IMA Profile</a> </strong> </div>
+                            <div class="em-box"> <i class="fas fa-edit"></i> <br> <strong class="em-num">&nbsp;</strong><strong class="em-deprt"> <a href="https://www.ima-india.org/memberarea/" target="_blank" style="color: gray;" onmouseover="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'white'" onmouseout="if (!window.__cfRLUnblockHandlers) return false; this.style.color = 'gray'">Update Your IMPA Profile</a> </strong> </div>
                         </li>
                     </ul>
                 </div>
@@ -292,15 +319,16 @@ include 'header.php';
     </div>
 </section>
 
+<!--  -->
 
 <script>
-        // JavaScript to make the carousel slide automatically
-        var myCarousel = document.getElementById('carouselExampleIndicators');
-        var carousel = new bootstrap.Carousel(myCarousel, {
-            interval: 1000, // Set the interval (in milliseconds) between slides
-            wrap: true // Set to true to enable continuous sliding
-        });
-    </script>
+    // JavaScript to make the carousel slide automatically
+    var myCarousel = document.getElementById('carouselExampleIndicators');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 1000, // Set the interval (in milliseconds) between slides
+        wrap: true // Set to true to enable continuous sliding
+    });
+</script>
 <?php
 include 'footer.php';
 ?>
