@@ -9,14 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-    <meta http-equiv="cache-control" content="no-cache, must-revalidate, max-age=0">
-<meta http-equiv="expires" content="0">
-<meta http-equiv="pragma" content="no-cache">
-<link rel="stylesheet" href="styles.css?v=2">
-<?php
-header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
-?>
     <style>
         .btn-info {
             width: 100%;
@@ -181,8 +173,8 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
                     <li class="nav-item">
                         <div class="dropdown">
                             <button class="btn btn-info btn-lg dropdown-toggle" style="background-color: #002366;"><a href="">
-                                <i style="color: white" class="fa-solid fa-user"></i>
-                                    <font color="white">Membership </font>
+                            <i style="color: white;" class="fa-solid fa-user"></i>        
+                            <font color="white">Membership </font>
                                 </a></button>
                             <div class="dropdown-content">
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
