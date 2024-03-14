@@ -1,0 +1,62 @@
+<?php
+include 'header.php';
+?>
+<style>
+    .content-components {
+        margin: 0;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #001737;
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    hr {
+        border: 1px dashed;
+        border-color: #e4720a;
+    }
+</style>
+<div class="content content-components ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <h5 class="card-header" style="background-color: #e4720a; border-color: #e4720a; color:#FFFFFF;">AIU Payment Gateway</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            AIU has introduced online payment facility for remitting Annual Subscription and Fee for various services.
+                        </p>
+                        <ul>
+                            <li>Pay <b>online</b> using Debit/Credit Card, Net Banking &amp; Paytm.</li>
+                            <li>Pay <b>offline</b> using RTGS, NEFT, Demand Draft and submit UTR No. or Demand Draft Number for easy linkage of remittance.</li>
+                        </ul>
+                        <p class="card-text">
+                            Experience the new payment section..... for easy and convenient transfer of funds.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item">Fee for Equivalence Certificate<span class="badge"><a href="/payment/paynow?id=1">Pay Now</a></span></li>
+                    <li class="list-group-item bg-gray-1">Fee for Equivalence Enquiry<span class="badge"><a href="/payment/paynow?id=2">Pay Now</a></span></li>
+                    <li class="list-group-item">Fee for Annual Subscription<span class="badge"><a href="/payment/paynow?id=17">Pay Now</a></span></li>
+                    <li class="list-group-item bg-gray-1">Fee- VC’s Retiring Room (Single)<span class="badge"><a href="/payment/paynow?id=18">Pay Now</a></span></li>
+                    <li class="list-group-item">Fee- VC’s Retiring Room (Double)<span class="badge"><a href="/payment/paynow?id=19">Pay Now</a></span></li>
+                    <li class="list-group-item bg-gray-1">Fee-Conference Hall No 1<span class="badge"><a href="/payment/paynow?id=20">Pay Now</a></span></li>
+                    <li class="list-group-item">Fee-Conference Hall No 2<span class="badge"><a href="/payment/paynow?id=21">Pay Now</a></span></li>
+                </ul>
+                <hr>
+                <ul class="list-group">
+                    <li class="list-group-item">Offline <span class="badge"><a href="/payment/offline">Proceed</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+include 'footer.php';
+?>
